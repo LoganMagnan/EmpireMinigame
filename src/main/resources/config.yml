@@ -1,0 +1,37 @@
+# Debug mode
+# Only set this value to "true" if Trixkz (LoganM) tells you to do it
+debug: false
+
+admin-permission-node: "empireminigame.admin"
+
+# This should be 0 or 1, please don't keep this equally between two servers.
+server-number: 0
+
+game:
+  world: "world"
+  x: 0
+  y: 100
+  z: 0
+  maximum-players: 200
+  players:
+  started: false
+  custom-event-type: "NONE"
+  custom-events-already-done:
+
+est-hour-open: 12
+est-minute-open: 0
+
+mongo:
+  host: "127.0.0.1"
+  port: 27017
+  database: "local"
+  auth:
+    enabled: false
+    username: "username"
+    password: "password"
+    auth-database: "administrator"
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  password: "password"

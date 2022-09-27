@@ -1,0 +1,88 @@
+# No permission message
+no-permission: "&cNo permission"
+
+# Player not online message
+player-not-online: "&cThe specified player is not online"
+
+
+time-not-opened-yet:
+  - '&bThe game was not released yet'
+  - ''
+  - '&bIt will be available to be played more on 15 EST'
+
+chat-format: "&8{player}> &6{message}"
+
+# Hot bar
+hot-bar:
+  spawn-items:
+    join-the-game:
+      name: "&e&l» &dJoin The Game &e&l«"
+      material: "CLOCK"
+      amount: 1
+      data: 0
+      slot: 0
+      action-type: "GAME_MENU"
+      enabled: true
+  spectator-items:
+    player-tracker:
+      name: "&e&l» &dPlayer Tracker &e&l«"
+      material: "COMPASS"
+      amount: 1
+      data: 0
+      slot: 0
+      action-type: "PLAYER_TRACKER_MENU"
+      enabled: true
+
+# Scoreboard
+scoreboard:
+  title: "&d&lEmpire Minigame"
+  lines:
+    - ""
+    - "&8&m----------------------"
+    - "&8&m----------------------"
+
+game-command:
+  usage:
+    - "&cUsage:"
+    - "  &c/game start"
+    - "  &c/game stop"
+    - "  &c/game join"
+    - "  &c/game setworld <world name>"
+    - "  &c/game setlocation"
+    - "  &c/game setmaximumplayers <maximum players>"
+  start:
+    game-started: "&aThe game has been started -- have fun to everyone"
+  stop:
+    game-stopped: "&aThe game has been stopped"
+  join:
+    added-to-the-game: "&aYou have been added to the game"
+  set-world:
+    world-updated: "&aThe world has been updated"
+    world-name-not-valid: "&cError: The world name is not valid"
+  set-location:
+    location-updated: "&aThe location has been updated"
+    world-not-valid: "&cError: The world is not valid -- please set the world by using the '/game setworld <world name>' command"
+  set-maximum-players:
+    maximum-players-updated: "&aThe maximum players has been updated"
+
+event-command:
+  usage:
+    - "&cUsage:"
+    - "  &c/event start <event name> <duration>"
+    - "  &c/event stop"
+    - "  &c/event list"
+  start:
+    custom-event-started:
+      - ""
+      - "&aA &a&l(customeventname) event has started"
+      - "&7&o(customeventdescription)"
+      - ""
+    custom-event-already-started: "&cError: There is an event already started"
+  stop:
+    custom-event-stopped: "&aThe event has been stopped"
+    custom-event-not-started: "&cError: There is no event started"
+
+game:
+  no-game-made: "&cError: No game has been made"
+  game-already-started: "&cError: The game has already started"
+  ability-already-used: "&cError: You have already used your ability"

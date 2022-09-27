@@ -1,0 +1,31 @@
+abilities:
+  the-everlive:
+    name: "&bThe Everlive"
+    description: "&bThe player can generate 5 extra health by typing /life"
+  sneaky-boy:
+    name: "&bSneaky Boy"
+    description: "&bThe player can turn invisible for 2 minutes by typing /invis"
+  the-homesick:
+    name: "&bThe Homesick"
+    description: "&bThe player can teleport back to their bed in 3 seconds by typing /bed"
+  strong-boy:
+    name: "&bStrong Boy"
+    description: "&bThe player can receive strength II for 2 minutes by typing /strength"
+  the-harvester:
+    name: "&bThe Harvester"
+    description: "&bThe player can increase crop rate in a certain radius by 200% for 1 hour by typing /cropboost"
+  the-jester:
+    name: "&bThe Jester"
+    description: "&bThe player is spawned in with a Prot III Unbreaking III golden helmet"
+  the-precocious:
+    name: "&bThe Precocious"
+    description: "&bThe player is spawned in with 9 iron ingots"
+  evil-scientist:
+    name: "&bEvil Scientist"
+    description: "&bThe player is spawned in with 1 wither skeleton"
+  the-wealthy-noob:
+    name: "&bThe Wealthy Noob"
+    description: "&bThe player is spawned in with 1 diamond"
+  the-miner:
+    name: "&bThe Miner"
+    description: "&bThe player is spawned in with an iron pickaxe"

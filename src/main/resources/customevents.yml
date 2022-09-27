@@ -1,0 +1,14 @@
+# The custom event's names can not have a space in it
+custom-events:
+  drought:
+    name: "Drought"
+    description: "All water levels will decrease by 3 y level"
+  monsoon:
+    name: "Monsoon"
+    description: "The pouring rain can destroy blocks after a certain amount of erosion"
+  famine:
+    name: "Famine"
+    description: "Players will receive constant hunger effect"
+  zombie-apocalpyse:
+    name: "ZombieApocalypse"
+    description: "Zombie will spawn randomly and quickly around the entire map"

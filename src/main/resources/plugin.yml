@@ -1,0 +1,14 @@
+name: EmpireMinigame
+author: Trixkz
+version: 1.0
+api-version: 1.13
+main: org.altopia.empiregame.Main
+
+commands:
+  game:
+  event:
+  life:
+  invis:
+  bed:
+  strength:
+  cropboost:
